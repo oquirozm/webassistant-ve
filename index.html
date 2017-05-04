@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Asistente de Proyectos Web</title>
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="bower_components/bulma/css/bulma.css">
   <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
@@ -20,16 +21,108 @@
 
     <div class="intro-container-2">
       <ul class="list">
-        <li>Control de agenda de trabajo en <u>Google Calendar</u> o algún otro project management tool.</li>
-        <li>Crear recordatorios para cumplir con fechas de entrega y llevar control del progreso de cada proyecto.</li>
-        <li><u>Online research.</u> Eso implica realizar búsquedas online y, a partir de ellas, generar listas u hojas de cálculo.</li>
-        <li>Redacción de correos y gestión de comunicaciones.</li>
+        <li><p>Control de agenda de trabajo en <u>Google Calendar</u> o algún otro project management tool.</p></li>
+        <li><p>Crear recordatorios para cumplir con fechas de entrega y llevar control del progreso de cada proyecto.</p></li>
+        <li><p><u>Online research.</u> Eso implica realizar búsquedas online y, a partir de ellas, generar listas u hojas de cálculo.</p></li>
+        <li><p>Redacción de correos y gestión de comunicaciones.</p></li>
       </ul>
     </div>
 
   </section>
 
+  <section class="requirements">
+    <h2 class="title">Requisitos</h2>
+    <div class="requirements-container-1">
+      <ul class="list">
+        <li>
+          <p>Fluidez en inglés escrito y conversacional. <b>Super important.</b></p>
+        </li>
+        <li>
+          <p>Estudias o estudiaste: Ingeniería en Computación, Ingeniería Eléctrica, CS. Políticas, Letras, Filosofía o alguna ciencia pura. Algo cool o smart, básicamente.</p>
+        </li>
+        <li>
+          <p><b>Eres organizada/o.</b> Sabes llevar una agenda de trabajo, una conversación de Gmail y vives a base de recordatorios.</p>
+        </li>
+        <li>
+          <p>Eres un Windows/MacOS power user.</p>
+        </li>
+        <li>
+          <p>Sabes redactar emails cortos y precisos.</p>
+        </li>
+        <li>
+          <p>Sabes usar <b>Google Calendar</b>, <b>Google Docs</b>, Slack (maybe). Si sabes de <b>HTML</b> y <b>CSS</b>, o algo básico de <b>WordPress</b>, es un gran plus.</p>
+        </li>
+        <li>
+          <p>Sabes usar Google para hacer research y encontrar varias fuentes de información de cualquier tema que requieras.</p>
+        </li>
+        <li>
+          <p>Tienes un teléfono good enough para trabajar, o tienes buena disponibilidad en tu día a día.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="application">
+    <p class="paragraph paragraph__lead">
+      Si cumples con los requirimientos, o si crees que no cumples con todos pero puedes aprender en el camino, ház click en el botón de Aplicar y llena el formulario o escríbenos al correo: <a href="mailto:langswap.co@gmail.com">langswap.co@gmail.com</a>
+    </p>
+    <div class="application-container-1">
+      <button class="button is-primary">Aplicar</button>
+    </div>
+  </section>
+
+  <section class="form">
+    <form action="https://getsimpleform.com/messages?form_api_token=a5571a28362a22f5ab6d43981dd57e3a" method="post" enctype="multipart/form-data">
+
+    <input type='hidden' name='redirect_to' value='/gracias.html' />
+
+      <div class="field">
+        <label for="nombreapellido" class="label">Nombre y apellido <span class="required">*</span></label>
+        <p class="control">
+          <input type="text" name="nombreapellido" class="input">
+        </p>
+      </div>
+
+      <div class="field">
+        <label for="email" class="label">Email <span class="required">*</span></label>
+        <p class="control has-icons-left">
+          <input type="text" name="email" class="input">
+          <span class="icon is-small is-left"><i class="fa fa-envelope"></i></span>
+        </p>
+      </div>
+
+      <div class="field">
+        <label for="carrera" class="label">Titulo Profesional o Carrera que estudiaste</label>
+        <p class="control"><input type="text" name="carrera" class="input"></p>
+      </div>
+
+      <div class="field">
+        <label for="libro-ficcion" class="label">Libro de Ficción Favorito</label>
+        <div class="control"><input type="text" name="libro-ficcion" class="input"></div>
+      </div>
+
+      <div class="field">
+        <label for="libro-no-ficcion" class="label">Libro de No Ficción Favorito</label>
+        <p class="control"><input type="text" name="libro-no-ficcion" class="input"></p>
+      </div>
+
+      <div class="field">
+        <label for="hoja-vida" class="label">Adjunta tu hoja de vida</label>
+        <p class="control"><input type="file" name="hoja-vida" accept=".pdf,.jpg" class="input"></p>
+      </div>
+      <p><span class="required">*</span> Campo obligatorio.</p><br>
+
+      <div class="field">
+        <div class="control"><button class="button is-primary">Enviar</button></div>
+      </div>
+
+      
+    </form>
+    
+  </section>
+
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
   <script src="js/script.min.js"></script>
 </body>
 </html>

@@ -9,6 +9,8 @@ body {
 /* general classes */
 .paragraph {
     color: #515151;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .paragraph__lead {
@@ -19,10 +21,19 @@ body {
 
 .list {
     list-style-type: square;
+    font-size: 1.3em;
+    font-weight: 300;
 }
 
+/* Giving different color to the list bullets */
 .list li {
     margin-bottom: 1em;
+    color: #3EB890;
+}
+
+/* Getting the list item text back to the regular color. */
+.list li p {
+    color: #515151;
 }
 /* section.intro */
 .intro {
@@ -43,16 +54,115 @@ body {
     margin: 100px auto;
     max-width: 800px;
     text-align: left;
+    padding: 20px;
 }
 
 .intro-container-2 {
     margin: 100px auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.intro-container-2 .list {
+    padding: 50px;
+}
+
+
+
+/* section.requirements */
+.requirements {
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.requirements .title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.requirements-container-1 {
+    margin: 50px auto;
     max-width: 500px;
     text-align: left;
 }
 
-.intro-container-2 ul {
-    font-size: 1.3em;
-    font-weight: 300;
+.requirements-container-1 .list {
+    padding: 50px;
 }
 
+
+
+/* section.application */
+.application {
+    margin: 80px auto;
+    max-width: 800px;
+}
+
+.application-container-1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.application .button {
+    font-size: 1.3em;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+/* section.form */
+
+.form {
+    display: none;
+    margin: 80px auto;
+    max-width: 600px;
+    padding: 30px;
+}
+
+.form .field {
+    margin-bottom: 20px;
+}
+
+.form .required {
+    color: #D94A38;
+}
+
+
+/* Code for the Thank You page */
+
+.thank-you {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.thank-you .title {
+    color: #000000;
+
+    font-size: 5em;
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+.thank-you .quote-container {
+    position: absolute;
+    bottom: 0;
+    max-width: 800px;
+    margin: 50px auto 50px auto;
+    padding: 10px;
+}
+
+.thank-you .quote-content {
+    text-align: right;
+    font-size: 1.5em;
+}
+
+.thank-you .quote-author {
+    font-size: 1.2em;
+    text-align: right;
+}
