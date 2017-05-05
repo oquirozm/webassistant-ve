@@ -12,4 +12,4 @@ Task Runner: [Gulp.js](http://gulpjs.com/)
 
 Package Managers: [npm](https://www.npmjs.com/) and [Bower](https://bower.io/) (for front-end components)
 
-Form functionality: [Simple Form](https://getsimpleform.com/). It allows for a working form with attachment support inside a static html site.
+Form functionality: [Simple Form](https://getsimpleform.com/). It allows a working form with attachment support inside a static HTML site.
